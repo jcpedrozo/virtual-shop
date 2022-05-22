@@ -4,6 +4,11 @@
   box-sizing: border-box;
   position: absolute;
   right: 0;
+  background-color: #ffffff;
+  top: 60px;
+  bottom: 0;
+  border-radius: 6px;
+  border: var(--very-light-pink) solid 1px;
 }
 
 .title-container {
