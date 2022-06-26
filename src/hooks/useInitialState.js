@@ -14,9 +14,17 @@ const useInitialState = () => {
     })
   }
 
+  const removeToCar = payload => {
+    setState({
+      ...state,
+      car: state.car.filter(items => items.id !== payload.id)
+    })
+  }
+
   return {
     state,
     addToCar,
+    removeToCar,
   }
 }
 
